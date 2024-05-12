@@ -1,0 +1,116 @@
+(footprint "programmer-pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole pin header")
+	(tags "pin header")
+	(property "Reference" "P1"
+		(at 0 -3.81 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "625321e3-3172-4652-bf44-caa5f18522cf")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Value" "CONN_02X03"
+		(at 0.25 3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c58ec5d3-b17d-4f29-84f3-7caa894c31fb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dffbd82f-7f20-45f7-a90f-5aeb08245d4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31b357ab-350f-4a7f-8898-ae0159acc3db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6157b942-5513-45a7-a575-b30458917c4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -2.54 1.27)
+		(size 1.7272 1.7272)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "54655053-7aaf-4928-af01-02df2097c590")
+	)
+	(pad "2" smd circle
+		(at -2.54 -1.27)
+		(size 1.7272 1.7272)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1172cc77-1057-422f-bf62-9a4472f57dcc")
+	)
+	(pad "3" smd circle
+		(at 0 1.27)
+		(size 1.7272 1.7272)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fb04f50f-c33f-4241-9ace-55e6b0ddcd78")
+	)
+	(pad "4" smd circle
+		(at 0 -1.27)
+		(size 1.7272 1.7272)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7a8db998-051d-4e20-8ab3-5fa9078c423e")
+	)
+	(pad "5" smd circle
+		(at 2.54 1.27)
+		(size 1.7272 1.7272)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f5ddace7-6fcd-4bf5-92d2-5a1639d74a56")
+	)
+	(pad "6" smd circle
+		(at 2.54 -1.27)
+		(size 1.7272 1.7272)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93f82cb6-0c65-4e64-ba3e-eb5e505a941f")
+	)
+	(model "${KIPRJMOD}/3dmodels/programmer.step"
+		(offset
+			(xyz 5 -10.25 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)
