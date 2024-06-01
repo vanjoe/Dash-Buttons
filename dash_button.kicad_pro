@@ -662,5 +662,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PROJECT_REV": "REV2"
+  }
 }
