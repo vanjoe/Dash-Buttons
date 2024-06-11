@@ -27,22 +27,27 @@ inline static __attribute__((always_inline)) void wdt_disable() {
 
 #define DEBOUNCE_MS 100
 
-#define SW_DRV_SEAT PA0
-#define SW_PAS_SEAT PA1
-#define SW_LIGHTS   PA2
+#define SW_PAS_SEAT PA0
+#define SW_LIGHTS   PA1
+#define SW_LOCK_R   PA2
 #define SW_LOCK_F   PA3
-#define SW_LOCK_R   PA4
+#define SW_DRV_SEAT PA4
 #define OUT_DRV_SEAT PA6
-#define OUT_PAS_SEAT PA7
+#define OUT_LOCK_F   PA7
 
-#define OUT_LIGHTS   PB0
-#define OUT_LOCK_F   PB1
+#define OUT_PAS_SEAT PB0
+#define OUT_LIGHTS   PB1
 #define OUT_LOCK_R   PB2
 
-void set_pin_modes(){
+void setup_pins(){
     PUEA =  _BV(SW_DRV_SEAT) | _BV(SW_PAS_SEAT) | _BV(SW_LIGHTS) | _BV(SW_LOCK_F) | _BV(SW_LOCK_R);
-    DDRA = _BV(OUT_DRV_SEAT) | _BV(OUT_PAS_SEAT);
-    DDRB = _BV(OUT_LIGHTS) | _BV(OUT_LOCK_F) | _BV(OUT_LOCK_R);
+    //ports are set to inputs. output pins are externally pulled high.
+    //when we want to output a 1, we write 1 to ddr pin
+    PORTA = 0;
+    PORTB = 0;
+    DDRA = 0;
+    DDRB = 0;
+
 }
 typedef union{
     struct {
@@ -66,11 +71,12 @@ switches_t get_sw(){
 }
 
 void set_outputs(switches_t state){
-    uint8_t old_a = PORTA & ~(_BV(OUT_DRV_SEAT)  | _BV(OUT_PAS_SEAT));
-    PORTA = old_a | ( state.drv_seat << OUT_DRV_SEAT) | (state.pas_seat << OUT_PAS_SEAT);
 
-    uint8_t old_b = PORTB & ~(_BV(OUT_LIGHTS)  | _BV(OUT_LOCK_F) | _BV(OUT_LOCK_R));
-    PORTB = old_b | ( state.lights << OUT_LIGHTS) | (state.lock_f << OUT_LOCK_F)| (state.lock_r << OUT_LOCK_R);
+    uint8_t old_a = DDRA & ~(_BV(OUT_DRV_SEAT)  | _BV(OUT_LOCK_F));
+    DDRA = old_a | ( state.drv_seat << OUT_DRV_SEAT) | (state.lock_f << OUT_LOCK_F);
+
+    uint8_t old_b = DDRB & ~(_BV(OUT_LIGHTS)  | _BV(OUT_PAS_SEAT) | _BV(OUT_LOCK_R));
+    DDRB = old_b | ( state.lights << OUT_LIGHTS) | (state.lock_f << OUT_PAS_SEAT)| (state.lock_r << OUT_LOCK_R);
 
 }
 #
@@ -80,7 +86,7 @@ int main (void) {
     wdt_disable();
     sei();
     int i=0;
-    set_pin_modes();
+    setup_pins();
 
     switches_t state;
     state.as_int=0;
