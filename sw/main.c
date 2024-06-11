@@ -32,6 +32,7 @@ inline static __attribute__((always_inline)) void wdt_disable() {
 #define SW_LOCK_R   PA2
 #define SW_LOCK_F   PA3
 #define SW_DRV_SEAT PA4
+#define BACKLIGHT_EN PA5
 #define OUT_DRV_SEAT PA6
 #define OUT_LOCK_F   PA7
 
@@ -45,7 +46,7 @@ void setup_pins(){
     //when we want to output a 1, we write 1 to ddr pin
     PORTA = 0;
     PORTB = 0;
-    DDRA = 0;
+    DDRA = _BV(BACKLIGHT_EN);
     DDRB = 0;
 
 }
@@ -79,7 +80,41 @@ void set_outputs(switches_t state){
     DDRB = old_b | ( state.lights << OUT_LIGHTS) | (state.lock_f << OUT_PAS_SEAT)| (state.lock_r << OUT_LOCK_R);
 
 }
-#
+void delay_us(int us){
+
+}
+void pwm_delayms(int ms,int dutycycle){
+    static const int loops_per_ms=10;
+    if(dutycycle>100)dutycycle=100;
+    int inv_duty=100-dutycycle;
+    for(int m =0;m<ms;++m){
+	//debug(m);
+	for(int i=0;i<loops_per_ms;++i){
+	    //debug(i);
+	    PORTA|=_BV(BACKLIGHT_EN);
+	    for(int d=0;d<dutycycle;++d)_delay_us(1);
+            PORTA &= ~_BV(BACKLIGHT_EN);
+	    for(int d=0;d<inv_duty;++d)_delay_us(1);
+	}
+    }
+}
+
+void pwm_test(){
+    int pwm = 10;
+    int test=100;
+    while(--test){
+	//dg_printf("pwm = %d\r\n",pwm);
+	pwm_delayms(1000,pwm);
+	pwm+=10;
+	if (pwm > 100){
+	    pwm = 00;
+	}
+    }
+    while(1){
+	dg_printf("done_test\n");
+	_delay_ms(1000);
+    }
+}
 int main (void) {
 // MAIN STARTUP CODE:
 
@@ -93,6 +128,7 @@ int main (void) {
     set_outputs(state);
     switches_t last_sw=get_sw();
     int32_t loop_count=0;
+    pwm_test();
     while (1) {
 	switches_t sw= get_sw();
 
@@ -122,12 +158,11 @@ int main (void) {
 
 	last_sw = sw;
 	set_outputs(state);
-	_delay_ms(1);
 	loop_count++;
 	if((loop_count&1023) == 0){
 	    dg_printf("hello world %d %x %x\r\n",i++,state.as_int,get_sw().as_int);
 	}
 
     }
-
+    return 0;
 }
