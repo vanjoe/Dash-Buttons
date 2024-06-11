@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -496,6 +497,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -660,6 +662,10 @@
     [
       "b08ccec5-125a-434b-8920-b67dba6607ba",
       "Root"
+    ],
+    [
+      "90998629-8542-4026-83ca-6812cb7c015e",
+      "Mosfet Switch"
     ]
   ],
   "text_variables": {
