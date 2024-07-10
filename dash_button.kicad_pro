@@ -601,6 +601,30 @@
           "label": "Description",
           "name": "Description",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -662,10 +686,6 @@
     [
       "b08ccec5-125a-434b-8920-b67dba6607ba",
       "Root"
-    ],
-    [
-      "90998629-8542-4026-83ca-6812cb7c015e",
-      "Mosfet Switch"
     ]
   ],
   "text_variables": {
