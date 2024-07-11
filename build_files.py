@@ -36,7 +36,7 @@ def pcbway_gen(project_name,project_rev):
     sh_run(f"kicad-cli pcb export pos --side front --use-drill-file-origin {project_name}.kicad_pcb -o manufacture/front.pos")
     sh_run(f"kicad-cli pcb export pos --side back --use-drill-file-origin {project_name}.kicad_pcb -o manufacture/back.pos")
     sh_run("kicad-cli sch export bom -o manufacture/bom.csv --group-by Value "+
-           " --fields '${ITEM_NUMBER},Reference,${QUANTITY},MANUFACTURER,MPN,Value,Footprint,${DNP}'"+
+           " --fields '${ITEM_NUMBER},Reference,${QUANTITY},Manufacturer,MPN,Value,Footprint,${DNP}'"+
            " --labels 'Item #,Designator,Qty,Manufacturer,Mfg Part#,Value,Footprint,dnp'" +
            f" {project_name}.kicad_sch")
     sh_run(f"kicad-cli sch export pdf -D PROJECT_REV={project_rev} -o manufacture/schematic.pdf {project_name}.kicad_sch")
