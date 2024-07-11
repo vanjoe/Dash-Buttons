@@ -47,8 +47,7 @@ def jlcpcb(project_name,project_rev):
     with pushd("jlcpcb_manufacture"):
         sh_run(f"zip {project_name}-gbr.zip *.drl *.gbr *.gbrjob")
         #sh_run(f"rm  *.drl *.gbr *.pos")
-    sh_run(f"kicad-cli pcb export pos --format csv --units mm --use-drill-file-origin --side front {project_name}.kicad_pcb -o jlcpcb_manufacture/front.pos")
-    sh_run(f"kicad-cli pcb export pos --format csv --units mm --use-drill-file-origin --side back {project_name}.kicad_pcb -o jlcpcb_manufacture/back.pos")
+    sh_run(f"kicad-cli pcb export pos --format csv --units mm --use-drill-file-origin --side both {project_name}.kicad_pcb -o jlcpcb_manufacture/position.csv")
     sh_run("kicad-cli sch export bom -o jlcpcb_manufacture/bom.csv --group-by Value "+
            " --fields 'Reference,Footprint,${QUANTITY},Value,Footprint,LCSC Part #'"+
            " --labels 'Designator,Footprint,Qty,Value,LCSC Part #'" +
@@ -61,5 +60,5 @@ if __name__ == "__main__":
     parser.add_argument("project_name")
     args= parser.parse_args()
     githash=sh_run("git describe --tags --always --dirty",capture_output=True).stdout.strip()
-    #pcbway_gen(args.project_name,githash)
-    jlcpcb(args.project_name,githash)
+    pcbway_gen(args.project_name,githash)
+    #jlcpcb(args.project_name,githash)
