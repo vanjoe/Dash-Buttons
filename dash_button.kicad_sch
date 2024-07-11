@@ -8344,6 +8344,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ZX-PZ2.54-2-3PZZ"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "431e3c1b-ac8d-4489-9e38-9dbde94b9d1a")
 		)
@@ -8492,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 194.31 128.27 0)
 			(effects
 				(font
@@ -8536,7 +8554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 194.31 133.35 0)
 			(effects
 				(font
@@ -9790,7 +9808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330u"
+		(property "Value" "100u"
 			(at 70.612 175.26 0)
 			(effects
 				(font
@@ -9827,6 +9845,24 @@
 			)
 		)
 		(property "LCSC Part #" "C176674"
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VES101M1CTR-0605"
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Lelon"
 			(at 69.85 172.72 0)
 			(effects
 				(font
@@ -10099,6 +10135,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf683f76-c9ce-4a14-aba2-ad8009b076c4")
 		)
@@ -10316,7 +10361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -11406,6 +11451,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 160.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 160.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 160.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a85286a4-4739-4543-88a7-2e2f71eaca61")
 		)
@@ -12229,7 +12301,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 194.31 153.67 0)
 			(effects
 				(font
@@ -12273,7 +12345,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 194.31 158.75 0)
 			(effects
 				(font
@@ -12451,6 +12523,33 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20917"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
 			(at 90.17 43.18 0)
 			(effects
 				(font
@@ -12738,7 +12837,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "    BSMD1206-100-30V"
+		(property "MPN" "BSMD1206-100-30V"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -13465,6 +13564,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "148b0da9-a0ba-4b3e-a2bd-e11d3546de97")
 		)
@@ -13637,6 +13763,15 @@
 			)
 		)
 		(property "LCSC Part #" "C15849"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -13890,7 +14025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -14006,6 +14141,15 @@
 			)
 		)
 		(property "LCSC Part #" "C15849"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 91.44 104.14 0)
 			(effects
 				(font
@@ -14208,7 +14352,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 194.31 140.97 0)
 			(effects
 				(font
@@ -14252,7 +14396,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 194.31 146.05 0)
 			(effects
 				(font
@@ -14524,7 +14668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 142.24 129.54 0)
 			(effects
 				(font
@@ -14604,6 +14748,24 @@
 			)
 		)
 		(property "LCSC Part #" "C7501291"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZX-PZ2.54-1-3PWZ"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Megastar"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -14701,7 +14863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -14976,7 +15138,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -15020,7 +15182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 194.31 107.95 0)
 			(effects
 				(font
@@ -15112,6 +15274,33 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20917"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -15502,6 +15691,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48db2414-6cab-43de-8e2f-e65a0c6b6260")
 		)
@@ -15588,7 +15786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -15792,7 +15990,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 194.31 114.3 0)
 			(effects
 				(font
@@ -15836,7 +16034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 194.31 119.38 0)
 			(effects
 				(font
@@ -16400,6 +16598,33 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20917"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
 			(at 196.85 43.18 0)
 			(effects
 				(font

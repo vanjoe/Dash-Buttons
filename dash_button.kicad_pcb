@@ -1004,6 +1004,45 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1eb9f95-f65c-40dd-b1fc-06b623771d2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c8d8851-aa92-45bc-be85-e0c280cb24cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efe537e5-9a90-4ccb-9b38-7cecf61d8dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/fc65e381-d156-4eed-8cc2-1d0b6dd7c393")
 		(sheetname "Root")
@@ -1604,7 +1643,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2657,7 +2696,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "e7c85122-a0f9-4f01-950a-67ece4205100")
@@ -2720,7 +2759,7 @@
 				)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3688,6 +3727,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb94808d-4857-4ae2-afb0-d08c34669ebd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dfba4ce-9da1-4303-a94a-93f7a946c824")
 			(effects
 				(font
 					(size 1 1)
@@ -5211,6 +5263,32 @@
 				)
 			)
 		)
+		(property "MPN" "ZX-PZ2.54-1-3PWZ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4813bb3d-cf94-43b4-a004-0335473a9eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b0546ac-5810-43af-adc9-5369059447ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ba0ccf95-acad-4dff-9e6b-68114123a4c8")
 		(sheetname "Root")
@@ -5899,6 +5977,45 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf90bfa2-d34f-4bd6-a9fe-b2f814589408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a745d8-a2cc-4d01-b29b-7d99e548f296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd1ac16-8723-439b-bb4d-e0e8be17c235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/d4044e56-bd52-4765-9869-512eac4731f3")
 		(sheetname "Root")
@@ -6224,6 +6341,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d59a880-c2d6-455d-bc06-93dd95ffa65c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8eaf3758-a421-4fef-8852-39e37a57070d")
 			(effects
 				(font
 					(size 1 1)
@@ -6916,7 +7046,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "ee1775cb-ca22-4230-a8f8-63100b024e9a")
@@ -6979,7 +7109,7 @@
 				)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7357,7 +7487,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8176,7 +8306,7 @@
 				)
 			)
 		)
-		(property "MPN" "    BSMD1206-100-30V"
+		(property "MPN" "BSMD1206-100-30V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8919,6 +9049,45 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a0c381f-0b15-43bc-9d05-8d362457d634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad16f312-7029-412b-8f4a-6ca269a11f48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11755e85-c2e9-44f4-87a1-c7143647483a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6535ee29-d96b-4a92-94c1-866a6243b405")
 		(sheetname "Root")
@@ -9137,7 +9306,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "ff7068d8-dece-4078-acfa-4e7fc10f0a3e")
@@ -9200,7 +9369,7 @@
 				)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9564,6 +9733,32 @@
 				)
 			)
 		)
+		(property "MPN" "ZX-PZ2.54-2-3PZZ"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d0ccc57-a12d-4c41-a864-ef87a93b84ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0016340-04f1-4ecc-a4e0-59842c44ebe8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/0787b488-399f-4741-b048-710d9079d461")
 		(sheetname "Root")
@@ -9846,7 +10041,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "d6ec4d04-8671-4282-81dd-b167fc53d3a3")
@@ -9909,7 +10104,7 @@
 				)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11839,7 +12034,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13509,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14217,6 +14412,19 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec7de028-78d1-413d-abcc-2f33bfa50508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a40803a0-bd01-4982-81ff-4381e45ca337")
 		(sheetname "Root")
@@ -14380,7 +14588,7 @@
 				)
 			)
 		)
-		(property "Value" "330u"
+		(property "Value" "100u"
 			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "14e4b609-eeac-409c-840c-b23d4c9eb8bb")
@@ -14436,6 +14644,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "86a0de78-c7ad-40f3-9f55-d84ba51f0d7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "VES101M1CTR-0605"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33ed983c-6794-4b52-9ce3-f8b6903f7a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" " Lelon"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31156f2e-2544-4d25-a73a-200a1900f383")
 			(effects
 				(font
 					(size 1 1)
@@ -15139,6 +15373,45 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1d0328a-bd7f-4cb4-8ff1-90d8a1883a96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d952f42-ddf1-47fd-b9d2-0580524a6bbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b82a3c52-c77e-4d62-b644-54067e537c24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/a22fc3ab-2c6c-44ac-9565-31bb0cf67c42")
 		(sheetname "Root")
@@ -15830,6 +16103,45 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30c8664e-23ac-4941-b3ba-5c39c4a242ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9486ea8e-d271-4265-82f9-bf88995e234d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77eb997f-316b-45db-9d1b-baf2188c104b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/82f02fad-41d8-467e-a5d7-2f17813be7fe")
 		(sheetname "Root")
@@ -16048,7 +16360,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1002S-08526C"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "410ac5f2-9fc1-4f97-89ab-9eb4c9397952")
@@ -16111,7 +16423,7 @@
 				)
 			)
 		)
-		(property "MPN" "    TS-1002S-08526C"
+		(property "MPN" "TS-1002S-08526C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17057,7 +17369,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "    Hubei KENTO Elec"
+		(property "Manufacturer" " Hubei KENTO Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17920,6 +18232,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4030181-165e-416c-a90f-7cff1bda4e1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1806a8-b51a-4ad0-ac4d-f4c3cae333a3")
 			(effects
 				(font
 					(size 1 1)
@@ -20374,7 +20699,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e19261c9-d013-4fe7-81e2-5af9c5cfc876")
 	)
-	(gr_text "Revision:${PROJECT_REV}"
+	(gr_text "Revision:rev3-dirty"
 		(at 63 72 0)
 		(layer "F.SilkS")
 		(uuid "34ac604b-a011-48ed-b158-ff34b3aad7a5")
