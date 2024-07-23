@@ -16724,7 +16724,7 @@
 				)
 			)
 		)
-		(property "Value" "ATtiny441-M"
+		(property "Value" "ATtiny441-MUR"
 			(at 0 3.3 -90)
 			(layer "F.Fab")
 			(uuid "b03fbfe0-820c-49cd-8be8-7c7f7010b0c5")
@@ -16774,19 +16774,6 @@
 				)
 			)
 		)
-		(property "PartNo" "ATTINY441-MUR"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24d36c36-05d2-4f5f-abf7-4515cbba0a0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer" "ATMEL"
 			(at 0 0 90)
 			(unlocked yes)
@@ -16813,7 +16800,7 @@
 				)
 			)
 		)
-		(property "MPN" "ATTINY441-MMH"
+		(property "MPN" "ATTINY441-MUR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -11087,8 +11087,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATtiny441-M"
-			(at 46.99 85.09 0)
+		(property "Value" "ATtiny441-MUR"
+			(at 42.3559 86.6051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,15 +11124,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNo" "ATTINY441-MUR"
-			(at 54.61 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "ATMEL"
 			(at 54.61 85.09 0)
 			(effects
@@ -11151,7 +11142,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ATTINY441-MMH"
+		(property "MPN" "ATTINY441-MUR"
 			(at 54.61 85.09 0)
 			(effects
 				(font
