@@ -10,7 +10,7 @@
 DEVICE  = attiny441
 F_CPU   = 8000000UL	# in Hz
 FUSE_L  = 0xAE# 16MHz external oscilaror
-FUSE_L  = 0x82# 8 MHz
+FUSE_L  = 0xC2# 8 MHz
 FUSE_H  = 0xDF
 FUSE_E  = 0xF5
 AVRDUDE = avrdude -c usbasp -P usb -p $(DEVICE) -e # edit this line for your programmer
@@ -20,7 +20,7 @@ CFLAGS  = -Iusbdrv -I. -DDEBUG_LEVEL=0  -Os
 CFLAGS += -ffunction-sections -fdata-sections
 LDFLAGS += -Wl,--gc-sections,--relax
 
-OBJECTS = main.o uart.o 
+OBJECTS = main.o uart.o
 
 COMPILE = avr-gcc -Wall -MD -DF_CPU=$(F_CPU) $(CFLAGS) $(LDFLAGS) -mmcu=$(DEVICE)
 -include *.d
