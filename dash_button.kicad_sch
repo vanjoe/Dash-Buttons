@@ -3754,7 +3754,6 @@
 			)
 		)
 		(symbol "Diode:SMAJ16A"
-			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -6519,16 +6518,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 185.42) (xy 52.07 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a60c38-5c82-4be7-a6a1-1f9f52e6372a")
-	)
-	(wire
-		(pts
 			(xy 162.56 170.18) (xy 162.56 175.26)
 		)
 		(stroke
@@ -6549,7 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 185.42) (xy 52.07 180.34)
+			(xy 52.07 180.34) (xy 52.07 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6949,16 +6938,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 185.42) (xy 50.8 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7fb6d47-ab37-45cb-b4b8-abbfecc3723a")
-	)
-	(wire
-		(pts
 			(xy 142.24 170.18) (xy 149.86 170.18)
 		)
 		(stroke
@@ -7329,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 186.69) (xy 69.85 186.69)
+			(xy 52.07 186.69) (xy 69.85 186.69)
 		)
 		(stroke
 			(width 0)
@@ -10940,6 +10919,7 @@
 	(symbol
 		(lib_id "Diode:SMAJ16A")
 		(at 52.07 176.53 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10947,7 +10927,7 @@
 		(dnp no)
 		(uuid "572aad4c-e182-456b-9229-47b8f93cef97")
 		(property "Reference" "D12"
-			(at 49.53 177.8001 90)
+			(at 49.53 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +10936,7 @@
 			)
 		)
 		(property "Value" "SMAJ16A"
-			(at 49.53 180.34 90)
+			(at 49.53 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +10954,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 52.07 177.8 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
